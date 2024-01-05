@@ -1,5 +1,5 @@
 #esto es un archivo de condiguracion 
-parame1=ABCH
-parame2=DEFG
+parame1=AAA
+parame2=DDD
 
 param3=1234

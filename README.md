@@ -40,7 +40,7 @@ Además, nos brinda de trazabilidad en el código y simplificar el trabajo colab
    - Clona un repositorio remoto en tu máquina local.
 
 3. **`git add <archivo>`:**
-   - Añade cambios al área de preparación para ser incluidos en el próximo commit.
+   - Añade cambios al área de preparación (**`stage`**) para ser incluidos en el próximo commit.
 
 4. **`git commit -m "mensaje"`:**
    - Realiza un commit con un mensaje descriptivo.

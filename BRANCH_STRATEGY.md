@@ -60,7 +60,10 @@ Cuando hay 2 o mas personas empiezan a trabajando en una misma rama y modifican 
 
 Pra resolver este conflicto debemos:
 
-1. **Corregir el archivo**
+1. **Hacer un merge con origen**
+   - `git merge origin`
+
+2. **Corregir el archivo**
    - para cada archivo con conflictos debemos abrir uno por uno buscando las secciones con conflicto.
    ```
    <<<<<<< HEAD // lo que tenemos localmente
@@ -72,41 +75,16 @@ Pra resolver este conflicto debemos:
    ```
    Para corregirlo debemos dejar solo lo necesario, es un merge manual.
 
-2. **rastrear el archivo corregido**
+3. **rastrear el archivo corregido**
    - se hace un `git add {archivo corregido}` para informar a git que ya se resolvieron los conflictos.
    - Se debe repetir para cada archivo con conflictos que corrijamos.
 
-3. **commit del merge**
+4. **commit del merge**
    - Despues de hacer el add, se debe hacer un commit del merge, `git commit -m'merge commit'`
 
-4. **PUSH**
+5. **PUSH**
    - Por último, ya podemos hacer el push de nuestro trabajo con `git push origin {branch}`
 
-### problemas basicos:
-
-1. **`git init`:**
-   - Inicia un nuevo repositorio Git en el directorio actual.
-
-2. **`git clone <URL>`:**
-   - Clona un repositorio remoto en tu máquina local.
-
-3. **`git add <archivo>`:**
-   - Añade cambios al área de preparación para ser incluidos en el próximo commit.
-
-4. **`git commit -m "mensaje"`:**
-   - Realiza un commit con un mensaje descriptivo.
-
-5. **`git push`:**
-   - Sube los cambios locales al repositorio remoto.
-
-6. **`git pull`:**
-   - Obtiene cambios del repositorio remoto y los fusiona con tu rama actual.
-
-7. **`git branch`:**
-   - Muestra las ramas disponibles y destaca la rama actual.
-
-8. **`git merge <nombre_rama>`:**
-   - Combina los cambios de una rama en la rama actual.
 
 ### Git Stash:
 

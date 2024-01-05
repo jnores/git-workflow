@@ -1,5 +1,5 @@
 #esto es un archivo de condiguracion 
 parame1=AAA
-parame2=DDD
+parame2=DDdddD
 
 param3=1234
